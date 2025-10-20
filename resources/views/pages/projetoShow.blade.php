@@ -1,5 +1,11 @@
 @extends('tamplateadm.tamplate')
 
+@section('style', '../css/styles.css')
+
+@section('js', '../js/main.js')
+
+@section('logo', '../assets/logo.png')
+
 @section('content')
 <div class="container py-4">
 

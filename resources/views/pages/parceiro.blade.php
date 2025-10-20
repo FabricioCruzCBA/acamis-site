@@ -1,5 +1,11 @@
 @extends('tamplate.tamplate')
 
+@section('style', '/css/styles.css')
+
+@section('js', '/js/main.js')
+
+@section('logo', '/assets/logo.png')
+
 @section('content')
 <div class='wrap py-5'>
     <h2>Parceiros da ACAMIS</h2>

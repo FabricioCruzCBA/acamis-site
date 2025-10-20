@@ -1,5 +1,11 @@
 @extends('tamplate.tamplate')
 
+@section('style', '/css/styles.css')
+
+@section('js', '/js/main.js')
+
+@section('logo', '/assets/logo.png')
+
 @section('content')
 <section>
     <div class='wrap'>
