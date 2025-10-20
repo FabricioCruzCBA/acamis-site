@@ -12,7 +12,7 @@ class UsuarioController extends Controller
     {
         $user = usuario::Where('nome', $request->login)->where('senha', $request->senha)->where("ativo", '1')->first();
         //echo(count($user));
-        dd($request);
+        dd($user);
         if(!empty($user)){
             session(['user'=> $user->id]);
             return redirect('/adm/noticias');
