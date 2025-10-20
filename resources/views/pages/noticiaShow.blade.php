@@ -1,4 +1,4 @@
-@extends('tamplateadm.tamplate')
+@extends('tamplate.tamplate')
 
 @section('content')
 <div class="container py-4">
