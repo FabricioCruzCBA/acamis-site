@@ -11,7 +11,7 @@
                         <div class='wrap'>
                             <div class='grid'>
                                 <div>
-                                    <span class='badge'>🌞 Bem-vindo(a) à ACAMIS</span>
+                                    <span class='badge text-dark'>🌞 Bem-vindo(a) à ACAMIS</span>
                                     <h1>Arte, educação e oportunidades que iluminam o futuro.</h1>
                                     <p>A Associação Caminhando Para Mais Um Sonho – ACAMIS, é uma organização da sociedade civil, sem fins lucrativos de direitos privados, de interesse público, de caráter educativo e de duração por tempo indeterminado. A ACAMIS teve início em maio de 2011 a partir do olhar de sua Idealizadora e fundadora, a Assistente Social Maria Domingas, que identificou a carência que sua comunidade apresentava de um espaço dedicado ao desenvolvimento de ações de proteção social para crianças e adolescentes em vulnerabilidade e risco social onde fosse possível contribuir para a construção de um futuro mais justo e igualitário a esse público. Essa comunidade frequentemente enfrentava desafios socioeconômicos, falta de acesso a serviços básicos e oportunidades limitadas, o que resultava em condições precárias de vida para muitas crianças e jovens que ali viviam.</p>
                                     <div style='display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:10px'>
