@@ -20,9 +20,10 @@
             <img 
                 src="../{{$not->img}}" 
                 alt="{{ $not->titulo }}" 
-                class="card-img-top" 
-                style="max-height: 400px; object-fit: cover;">
+                class="card-img-top img-fluid"
+                style="max-height: 600px; object-fit: contain; background-color: #f8f9fa;">
         @endif
+
 
         <div class="card-body">
             <h2 class="card-title text-primary">{{ $not->titulo }}</h2>
