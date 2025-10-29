@@ -16,12 +16,12 @@
                 <div>
                     <h3>Chave PIX</h3>
                     <p>
-                        <b>pix@acamis.org.br</b>
+                        <b>CNPJ: 14.904.923/0001-82</b>
                     </p>
                 </div>
                 <div>
                     <h3>Dados Bancários</h3>
-                    <p>Banco X · Ag. 0000 · Conta 000000-0</p>
+                    <p>Banco Sicred · Ag. 0804 · Conta 12533-5</p>
                 </div>
             </div>
         </div>
