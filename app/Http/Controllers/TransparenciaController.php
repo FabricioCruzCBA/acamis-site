@@ -11,7 +11,7 @@ class TransparenciaController extends Controller
     public function index()
     {
         if(!empty(session('user'))){
-            $trans = transparencia::where('ativo','1')->orderBy('created_at','desc')->get();
+            $trans = transparencia::where('ativo','1')->orderBy('created_at','desc')->orderBy('categoria')->get();
             //dd($not);
             return view('adm.transparencia')->with(['trans'=> $trans]);
         }else{
@@ -26,6 +26,7 @@ class TransparenciaController extends Controller
 
             $trans->nome = $request->nome;
             $trans->url = $request->url;
+            $trans->categoria = $request->categoria;
             
         
 
@@ -46,6 +47,7 @@ class TransparenciaController extends Controller
 
             $trans->nome = $request->nome;
             $trans->url = $request->url;
+            $trans->categoria = $request->categoria;
             
             
             if($trans->save()){

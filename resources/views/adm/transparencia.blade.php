@@ -14,6 +14,7 @@
 			<tr>
 				<th>ID</th>
 				<th>Nome</th>
+				<th>Categoria</th>
 				<th>Url</th>
 				<th class="text-center">Ações</th>
 			</tr>
@@ -24,6 +25,7 @@
 					<tr>
 						<td>{{$lin->id}}.</td>
 						<td>{{$lin->nome}}</td>
+						<td>{{$lin->categoria}}</td>
 						<td><a href="{{$lin->url}}" target="_blank">Link</a></td>
 						<td class="text-center">
 							<button 
@@ -31,6 +33,7 @@
 								data-id="{{$lin->id}}"
 								data-nome="{{$lin->nome}}"
 								data-url="{{$lin->url}}"
+								data-categoria="{{$lin->categoria}}"
 								>
 								Editar
 							</button>
@@ -69,6 +72,10 @@
 							<div class="mb-3">
 								<label for="titulo" class="form-label">Nome</label>
 								<input type="text" class="form-control" id="nome" name="nome" required>
+							</div>
+							<div class="mb-3">
+								<label for="categoria" class="form-label">Categoria</label>
+								<input type="text" class="form-control" id="categoria" name="categoria" required>
 							</div>
 							<div class="mb-3">
 								<label for="subtitulo" class="form-label">URL</label>
@@ -125,6 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			document.getElementById('id').value = this.dataset.id;
 			document.getElementById('nome').value = this.dataset.nome;
 			document.getElementById('url').value = this.dataset.url;
+			document.getElementById('categoria').value = this.dataset.categoria;
 			
 
 			
